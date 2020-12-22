@@ -1,0 +1,1109 @@
+@charset "utf-8";
+
+   html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+  .wrapper{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+  }
+
+  .inner {
+      padding-bottom: 100px;
+  }
+
+  .main_page {
+    background: url(../images/electronic_round_blue.gif) no-repeat;
+ }
+ 
+ .main_content {
+     position: relative;
+ }
+
+ .title_back {
+    background-color: rgb(216, 205, 49);
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+
+/*☆☆☆トップページ☆☆☆*/
+
+/*メインページ*/
+
+#gif {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all 2s ease;
+  background: url(../images/https___arisago.com_official_wp-content_uploads_2017_08_005.gif) center/300px no-repeat, #080403;
+}
+
+.loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.left_page {
+    width: 600px;
+    margin-top: 150px;
+    margin-left: 300px;
+    float: left;
+}
+
+.right_page {
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 300px;
+    float: left;
+    text-align: center;
+}
+
+.box_content {
+    background-color: whitesmoke;
+    height: 300px;
+    overflow: scroll;
+}
+
+.text_contents {
+    text-decoration: none;
+    color: rgb(216, 2, 2);
+    line-height: 2.5;
+}
+
+/*Twitter*/
+
+.twitter_page {
+    width: 250px;
+    height: 350px;
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+/*リンクバナー*/
+
+.link_banner {
+    margin-top: 30px;
+    width: 350px;
+    height:150px;
+}
+
+
+/*フェードイン*/
+
+#id_top {
+    opacity: 0;
+    transform: translate(600px,0px);
+    transition: all 1s;
+}
+
+#id_top.fade_in_top {
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+
+#id2_top {
+    opacity: 0;
+    transform: translate(600px,0px);
+    transition: all 1s;
+}
+        
+#id2_top.fade_in2_top {
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+        
+#id3_top {
+    opacity: 0;
+    transform: translate(0px,-400px);
+    transition: all 2s;
+}
+        
+#id3_top.fade_in3_top {
+    opacity: 1;
+    transform: translate(0px,0px);
+}  
+         
+#id4_top {
+    opacity: 0;
+    transform: translate(-400px,0px);
+    transition: all 1s;
+}
+        
+#id4_top.fade_in4_top {
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+             
+#id5_top {
+    opacity: 0;
+    transform: translate(600px,0px);
+    transition: all 1s;
+}
+        
+#id5_top.fade_in5_top {
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+
+/*☆☆☆会社概要☆☆☆*/
+
+.about_content {
+    width: 800px;
+    padding-top:30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.company_informatinon_content, .business_content, .management_philosophy_content {
+    background-color: white;
+    margin-bottom: 50px;
+    border: 3px solid gainsboro;
+}
+
+.management_philosophy_content {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px 18px;
+    text-align: left;
+    border-bottom: 1px dashed rgb(14, 243, 201);
+    background-color: gainsboro;
+}
+
+td {
+    border-bottom: 1px dashed rgb(14, 243, 201);
+}
+
+.philosophy_text {
+  display: inline-block;
+  text-align: left;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 2;
+  font-family: "ＭＳ Ｐ明朝", "Yu Gothic";
+}
+
+.back_to_top {
+    width:  100px;
+    margin-left: 1100px;
+    text-align: center;
+    position: absolute;
+    right: 200px;
+    bottom: 20px;
+}
+
+.back_top_image {
+    width: 100px;
+    height: 100px;
+}
+
+#id7_top {
+    opacity: 0;
+    transform: translate(20px,0px);
+    transition: all 1s;
+}
+
+#id7_top.fade_in7_top{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+
+#id8_top {
+    opacity: 0;
+    transform: translate(-20px,0px);
+    transition: all 1s;
+}
+
+#id8_top.fade_in8_top{
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+
+.fadein_right{
+    opacity: 0;
+    transform: translate(100px,0px);
+    transition: all 2s;
+}
+
+.fadein_right.scrollin {
+    opacity: 1;
+    transform: translate(0px,0px);
+}
+
+/*☆☆☆自己紹介☆☆☆*/
+
+.self_content {
+    width: 600px;
+    margin-left: 650px;
+    padding: 100px 0;
+}
+
+.self_content_box {
+    border-right: 3px solid gray;
+    border-left: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
+
+.self_image {
+    width: 120px;
+    height: 150px;
+    border: 2px solid pink;
+    border-radius: 10%;
+} 
+
+.self_introduce {
+    border-top: 3px solid gray;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    background-color: white;
+}
+
+.introduce_text1 {
+    position: absolute;
+    top: 170px;
+    right: 850px;
+    font-size: 35px;
+}
+
+.introduce_text2 {
+    position: absolute;
+    top: 220px;
+    right: 880px;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 981px) {
+.self_content_text {
+    line-height: 30px; 
+    background-position: 0px 0px;
+    background-size: 10px 30px; /* line-height に合わせる */ 
+    background-color: #fff;
+    background-repeat: repeat; 
+    background-image:
+    linear-gradient( 90deg, transparent 20%, #fff 9px ),
+    linear-gradient(transparent 97%, rgb(250, 75, 75) 0%);
+} 
+}
+#id6_top {
+    opacity: 0;
+    transform: rotate(0deg);
+    transition: all 1s;
+    width: 100%;
+}
+
+#id6_top.fade_in6_top{
+    opacity: 1;
+    transform: rotate(1080deg);
+}
+
+/*☆☆☆ギャラリー☆☆☆*/
+
+/*ホームページ*/
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 27px;
+}
+
+.home_page {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.hm_image, .hm_image2, .hm_image3, .hm_image4 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin: 80px 80px 0px 80px;
+}
+
+.hm_link {
+    display: inline-block;
+    margin-left: 140px;
+}
+
+.hm_link2 {
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.hm_link3 {
+    display: inline-block;
+    margin-left: 140px;
+}
+
+.hm_link4 {
+    display: inline-block;
+    margin-left: 250px;
+    }
+ 
+/*動画*/
+
+.iframe {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/*書籍*/
+
+.books1, .books2, .books3, .books4, .books5, .books6 {
+    text-align: center;
+    float: left;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.books_image {
+    width: 300px;
+    height: 400px;
+}
+
+.books_link {
+    display: block;
+}
+
+.image_content, .video_content {
+    margin-bottom: 50px;
+}
+
+/*トップへ戻る*/
+
+.back_to_top2 {
+    width:  100px;
+    margin-left: 1100px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+/*☆☆☆お問い合わせ☆☆☆*/
+
+.question_title {
+    background-color:pink;
+    width: 700px;
+}
+
+.question_content {
+    background: url(../images/38107.jpg) no-repeat;
+    background-size: 700px 700px;
+    background-position: 3px 5px;
+    margin-top: 20px;
+    margin-left: 600px;
+    width: 700px;
+    height: 750px;
+    float: left;
+    
+}
+
+form {
+    width: 500px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.item {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.label, .label2 {
+    display: inline-block;
+    width: 120px;
+    border-left: 3px solid #e0505d;
+    padding-left: 20px;
+}
+
+.label2 {
+    vertical-align: top;
+}
+
+.sircle {
+    color: red;
+}
+
+.triangle {
+    color: gold;
+}
+
+.square {
+    color: greenyellow;
+}
+
+.s_button {
+    text-align: center;
+    margin-top: 120px;
+}
+
+/*送信後ページ*/
+
+.send_page {
+    background: url(../images/09.jpg) no-repeat;
+    background-size: cover;
+}
+
+.send {
+    text-align: center;
+    height: 760px;
+    padding-top: 10px;
+}
+
+.send_text_back {
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.send_text {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.send_image {
+    width: 300px;
+    height: 450px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.speech_bubble {
+    position: absolute;
+    top: 180px;
+    right: 540px;
+}
+
+.send_back {
+    display: block;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.shadow_content {
+    background-color: white;
+    color: white;
+    width: 50px;
+    position: absolute;
+    top: 158px;
+    left: 1060px;
+}
+
+@media screen and (max-width: 980px) {
+
+        html,body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        p {
+            margin: 0;
+            padding: 0;
+        }
+    
+      .wrapper{
+        width: 100%;
+        position: relative;
+        min-height: 100vh;
+        overflow: hidden;
+      }
+    
+      .inner {
+          padding-bottom: 100px;
+      }
+
+    .main_page {
+        background: url(../images/electronic_round_blue.gif) no-repeat;
+        background-position: 3 3;
+        min-height: 100vh;
+     }
+     
+     .main_content {
+         position: relative;
+
+     }
+
+    /*☆☆☆トップページ(スマホ)☆☆☆*/
+    
+    #gif {
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        transition: all 2s ease;
+        background: url(../images/https___arisago.com_official_wp-content_uploads_2017_08_005.gif) center/300px no-repeat, #080403;
+      }
+      
+      .loaded {
+          opacity: 0;
+          visibility: hidden;
+      }    
+
+    .left_page {
+        margin-top: 100px;
+        width: 70%;
+        margin-bottom: 100px;
+        margin-left: 150px;
+    }
+
+    .right_page {
+        margin-top: 150px;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        display: inline-block;
+    }
+
+    .title_back {
+        width: 100%;
+    }
+    
+    h2{
+        margin:0;
+    }
+
+    .box_content {
+        height: 350px;
+        overflow-y: scroll;
+    }
+
+    .box_content::-webkit-scrollbar {
+        width: 30px;
+        height: 30px;
+    }/*バーの太さ*/
+    
+    .box_content::-webkit-scrollbar-track {
+        background:#dddddd; 
+    }/*バーの背景色*/
+    
+    .box_content::-webkit-scrollbar-thumb {
+        background:#2cc2e4; 
+    }/*バーの色*/
+
+    .text_contents {
+        text-decoration: none;
+        color: rgb(216, 2, 2);
+        line-height: 2.5;
+        margin:0;
+        padding:0;
+    }
+   
+    /*Twitter*/
+    
+    .twitter_page {
+        width: 700px;
+        height: 500px;
+        overflow: hidden;
+        margin: auto;
+    }
+     
+    /*リンクバナー*/
+    
+    .link_banner {
+        margin-top: 100px;
+        width: 700px;
+        height:350px;
+    }
+
+    /*フェードイン*/
+    
+    #id_top {
+        opacity: 0;
+        transform: translate(600px,3);
+        transition: all 1s;
+        display: inline-block;
+    }
+
+    #id_top.fade_in_top {
+        opacity: 1;
+        transform: translate(3,3);
+        display: inline-block;
+    }
+
+    #id2_top {
+        opacity: 0;
+        transform: translate(-600px,3);
+        transition: all 1s;
+    }
+            
+    #id2_top.fade_in2_top {
+        opacity: 1;
+        transform: translate(3,3);
+    }
+         
+    #id3_top {
+        opacity: 0;
+        transform: translate(3,-400px);
+        transition: all 2s;
+    }
+            
+    #id3_top.fade_in3_top {
+        opacity: 1;
+        transform: translate(3,3);
+    }  
+   
+    #id4_top {
+        opacity: 0;
+        transform: translate(-400px,3);
+        transition: all 1s;
+ 
+    }
+            
+    #id4_top.fade_in4_top {
+        opacity: 1;
+        transform: translate(3,3);
+    }
+            
+    #id5_top {
+        opacity: 0;
+        transform: translate(600px,3);
+        transition: all 1s;
+    }
+            
+    #id5_top.fade_in5_top {
+        opacity: 1;
+        transform: translate(3,3);
+}
+
+
+/*☆☆☆会社概要(スマホ)☆☆☆*/
+
+    .about_content {
+        width: 800px;
+        float: left;
+        margin-left: 90px;
+    }
+
+    .company_informatinon_content, .business_content, .management_philosophy_content {
+        background-color: white;
+        border: 3px solid gainsboro;
+        font-size: 30px; 
+        font-weight: bold;
+        margin-bottom: 200px;
+    }
+
+    .management_philosophy_content {
+        text-align: center;
+    }
+
+    .title_back_about {
+       margin-top: 100px; 
+
+    }
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    th {
+        padding: 10px 18px;
+        text-align: left;
+        border-bottom: 1px dashed rgb(14, 243, 201);
+        background-color: gainsboro;
+    }
+
+    td {
+        border-bottom: 1px dashed rgb(14, 243, 201);
+    }
+
+
+    .philosophy_text {
+        display: inline-block;
+        text-align: left;
+        font-weight: bold;
+        font-size: 40px; 
+        font-weight: bold;
+        line-height: 2;
+        font-family: "ＭＳ Ｐ明朝", "Yu Gothic";
+        width: 600px; 
+      }
+
+      .back_to_top {
+        width:  100px;
+        margin-left: 1100px; 
+        text-align: center;
+        position: absolute;
+        right: 0px;  
+        bottom: 0px;
+    }
+
+    .back_top_image {
+        width: 100px;
+        height: 100px;
+    }
+    
+    #id7_top {
+        opacity: 0;
+        transform: translate(20px,0px);
+        transition: all 1s;
+       
+    }
+    
+    #id7_top.fade_in7_top{
+        opacity: 1;
+        transform: translate(0px,0px);
+    
+    }
+    
+    #id8_top {
+        opacity: 0;
+        transform: translate(-20px,0px);
+        transition: all 1s;
+        
+    }
+    
+    #id8_top.fade_in8_top{
+        opacity: 1;
+        transform: translate(0px,0px);
+        
+    }
+    
+    .fadein_right{
+        opacity: 0;
+        transform: translate(100px,0px);
+        transition: all 2s;
+    }
+    
+    .fadein_right.scrollin {
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+
+/*☆☆☆自己紹介(スマホ)☆☆☆*/
+
+.self_content {
+    width: 700px;
+    padding-top: 300px;
+    margin-left: 150px;
+}
+
+.self_content_box {
+    border-right: 3px solid gray;
+    border-left: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
+
+.self_image {
+    width: 120px;
+    height: 150px;
+    border: 3px solid pink;
+    border-radius: 10%
+}
+
+.self_introduce {
+    border-top: 3px solid gray;
+    border-left: 3px solid gray;
+    border-right: 3px solid gray;
+    background-color: #fff;
+}
+
+.introduce_text1 {
+    position: absolute;
+    top: 350px;
+    right: 400px;
+    font-size: 35px;  
+}
+
+.introduce_text2 {
+    position: absolute;
+    top: 400px;
+    right: 420px;
+    font-size: 25px;
+}
+
+.self_content_text {
+    background-color: #fff;
+}
+/*
+ .Android {
+    line-height: 60px; 
+    background-position: 0px 0px;
+    background-size: 10px 60px; /* line-height に合わせる */ 
+/*  background-color: #fff; 
+    background-repeat: repeat;
+    font-size: 20px; 
+    background-image: 
+    linear-gradient( 90deg, transparent 20%, #fff 9px ), 
+    linear-gradient(transparent 97%, rgb(250, 75, 75) 0%);
+} 
+
+.iPhone {
+    line-height: 60px; 
+    background-position: 0px 0px;
+    background-size: 10px 82px; /* line-height に合わせる */ 
+ /*   background-color: #fff;
+    background-repeat: repeat; 
+    font-size: 20px;
+    background-image:
+    linear-gradient(transparent 97%, rgb(250, 75, 75) 0%);    
+}  
+*/
+.self_content_text br {
+    display: none;
+}
+
+#id6_top {
+    opacity: 0;
+    transform: rotate(0deg);
+    transition: all 1s;
+}
+
+#id6_top.fade_in6_top{
+    opacity: 1;
+    transform: rotate(1080deg);
+}
+
+/*☆☆☆ギャラリー(スマホ)☆☆☆*/
+
+/*ホームページ*/
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 27px;
+}
+
+.home_page {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.hm_image, .hm_image2, .hm_image3, .hm_image4 {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin: 80px 80px 0px 80px;
+}
+
+.hm_link {
+    display: inline-block;
+    margin-left: 140px;
+}
+
+.hm_link2 {
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.hm_link3 {
+    display: inline-block;
+    margin-left: 140px;
+}
+
+.hm_link4 {
+    display: inline-block;
+    margin-left: 250px;
+    }
+ 
+/*動画*/
+
+.video_content {
+    text-align: center;
+}
+
+.iframe {
+    margin-bottom: 50px;
+}
+
+/*書籍*/
+
+.books1, .books2, .books3, .books4, .books5, .books6 {
+    text-align: center;
+    float: left;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.books_image {
+    width: 300px;
+    height: 400px;
+}
+
+.books_link {
+    display: block;
+}
+
+.image_content, .video_content {
+    margin-bottom: 50px;
+}
+
+/*トップへ戻る*/
+
+.back_to_top2 {
+    width:  100px;
+    margin-left: 1100px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+/*☆☆☆お問い合わせ(スマホ)☆☆☆*/
+
+.question_title {
+    background-color:pink;
+    width: 100%;
+}
+
+.question_content {
+    background: url(../images/38107.jpg) no-repeat;
+    background-size: 750px 750px;
+    background-position: 3px 5px;
+    margin-top: 400px;
+    margin-left: 120px;
+    width: 75%;
+    height: 750px;
+    float: left;
+    
+}
+
+form {
+    width: 70%;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.item {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.label, .label2 {
+    display: inline-block;
+    width: 120px;
+    border-left: 3px solid #e0505d;
+    padding-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.label2 {
+    vertical-align: top;
+}
+
+.input_text {
+    border: 2px solid black;
+    margin-left: 20px;
+}
+
+.input_text2 {
+    border: 2px solid black;
+}
+
+.sircle {
+    color: red;
+}
+
+.triangle {
+    color: gold;
+}
+
+.square {
+    color: greenyellow;
+}
+
+.s_button {
+    text-align: center;
+    margin-top: 120px;
+}
+
+/*送信後ページ(スマホ)*/
+
+.send_page {
+    background: url(../images/09.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    }
+
+.send {
+    text-align: center;
+    height: 760px;
+    padding-top: 10px;
+    }
+
+.send_text_back {
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 400px;
+    }
+
+.send_text {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0;
+    }
+
+.send_image {
+    width: 300px;
+    height: 450px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    }
+
+.speech_bubble {
+    position: absolute;
+    top: 500px;
+    right: 60px;
+    }
+
+.send_back {
+    display: block;
+    font-size: 25px;
+    margin-top: 30px;
+    }
+
+.shadow_content {
+    background-color: white;
+    color: white;
+    width: 50px;
+    position: absolute;
+    top: 507px;
+    left: 590px;
+    }
+}
+

@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*フッター*/
+
+.footer_main {
+    height:100px;
+    position:absolute;
+    bottom:0;
+    background-color: tomato;
+    width: 100%;
+  }
+
+.footer_name {
+    margin-top: 20px;
+    float: left;
+}
+
+.footer_information {
+    font-weight: bold;
+    line-height: 2;
+    margin-left: 750px;
+    
+}
+
+@media screen and (max-width: 980px) {
+
+  .footer_main {
+      background-color: royalblue;
+      height:100px;
+      position:absolute;
+      bottom:0;
+      width: 100%;
+  }
+  
+  .footer_name {
+      margin-top: 20px;
+      float: left;
+  }
+  
+  .footer_information {
+      font-weight: bold;
+      line-height: 2;
+      margin-left: 700px;
+  }
+}
